@@ -30,7 +30,7 @@ export default function Welcome({ onComplete }: WelcomeProps) {
         </div>
 
         <h1 className="text-5xl md:text-7xl font-bold text-white mb-4 animate-slide-up">
-          Stylish Cuts
+          Mello Cuts
         </h1>
 
         <div className="flex items-center justify-center gap-3 mb-6">

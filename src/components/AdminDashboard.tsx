@@ -156,7 +156,7 @@ export default function AdminDashboard({ onLogout }: AdminDashboardProps) {
               />
               <div>
                 <h1 className="text-2xl font-bold text-white">Admin Dashboard</h1>
-                <p className="text-sm text-gray-300">Stylish Cuts - Icen Shop</p>
+                <p className="text-sm text-gray-300">Mello Cuts - Icen Shop</p>
               </div>
             </div>
             <button

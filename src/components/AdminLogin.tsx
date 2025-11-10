@@ -53,7 +53,7 @@ export default function AdminLogin({ onLogin }: AdminLoginProps) {
               className="w-24 h-24 mx-auto mb-4"
             />
             <h2 className="text-3xl font-bold text-white">Admin Access</h2>
-            <p className="text-red-100 mt-2">Stylish Cuts - Icen Shop</p>
+            <p className="text-red-100 mt-2">Mello Cuts - Icen Shop</p>
           </div>
 
           <form onSubmit={handleSubmit} className="p-8 space-y-6">
@@ -117,7 +117,7 @@ export default function AdminLogin({ onLogin }: AdminLoginProps) {
         </div>
 
         <div className="mt-6 text-center text-gray-400 text-sm">
-          <p>Admin credentials: mellosalon@gmail.com / Mello123</p>
+         
         </div>
       </div>
     </div>

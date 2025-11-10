@@ -115,7 +115,7 @@ export default function ClientDashboard() {
                 className="h-16 w-16"
               />
               <div>
-                <h1 className="text-2xl font-bold text-gray-900">Stylish Cuts</h1>
+                <h1 className="text-2xl font-bold text-gray-900">Mello Cuts</h1>
                 <p className="text-sm text-gray-600">Icen Shop Management</p>
               </div>
             </div>
