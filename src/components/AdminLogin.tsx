@@ -48,12 +48,12 @@ export default function AdminLogin({ onLogin }: AdminLoginProps) {
         <div className="bg-white rounded-2xl shadow-2xl overflow-hidden">
           <div className="bg-gradient-to-r from-red-600 to-red-700 p-8 text-center">
             <img
-              src="/Emblem Style Barber Shop Logo.png"
-              alt="Logo"
+              src="/mello-cuts.jpg"
+              alt="Mello Cuts Logo"
               className="w-24 h-24 mx-auto mb-4"
             />
             <h2 className="text-3xl font-bold text-white">Admin Access</h2>
-            <p className="text-red-100 mt-2">Mello Cuts - Icen Shop</p>
+            <p className="text-red-100 mt-2">Mello Cut - Your beauty is our concern </p>
           </div>
 
           <form onSubmit={handleSubmit} className="p-8 space-y-6">

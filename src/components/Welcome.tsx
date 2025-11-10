@@ -23,14 +23,14 @@ export default function Welcome({ onComplete }: WelcomeProps) {
       <div className="text-center px-4">
         <div className="mb-8 flex justify-center">
           <img
-            src="/Emblem Style Barber Shop Logo.png"
-            alt="Stylish Cuts Logo"
+            src="/mello-cuts.jpg"
+            alt="Mello Cuts Logo"
             className="w-48 h-48 md:w-64 md:h-64 animate-fade-in"
           />
         </div>
 
         <h1 className="text-5xl md:text-7xl font-bold text-white mb-4 animate-slide-up">
-          Mello Cuts
+          Mello Cut
         </h1>
 
         <div className="flex items-center justify-center gap-3 mb-6">
@@ -43,7 +43,7 @@ export default function Welcome({ onComplete }: WelcomeProps) {
 
         {showMotto && (
           <p className="text-xl md:text-2xl text-gray-400 italic animate-fade-in animation-delay-1000">
-            Where Style Meets Precision
+            Your beauty is our concern
           </p>
         )}
       </div>

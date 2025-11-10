@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { ref, onValue, remove } from 'firebase/database';
-import { signOut } from 'firebase/auth';
-import { database, auth } from '../firebase';
+// import { signOut } from 'firebase/auth';
+import { database,  } from '../firebase';
 import { SalesRecord, ExpenseRecord } from '../types';
 import {
   Download,
@@ -10,8 +10,7 @@ import {
   TrendingUp,
   TrendingDown,
   DollarSign,
-  Calendar,
-  FileText,
+  
 } from 'lucide-react';
 
 interface AdminDashboardProps {
@@ -150,13 +149,13 @@ export default function AdminDashboard({ onLogout }: AdminDashboardProps) {
           <div className="flex items-center justify-between h-20">
             <div className="flex items-center gap-4">
               <img
-                src="/Emblem Style Barber Shop Logo.png"
-                alt="Logo"
+                src="/mello-cuts.jpg"
+                alt="Mello Cuts Logo"
                 className="h-16 w-16"
               />
               <div>
                 <h1 className="text-2xl font-bold text-white">Admin Dashboard</h1>
-                <p className="text-sm text-gray-300">Mello Cuts - Icen Shop</p>
+                <p className="text-sm text-gray-300">Mello Cut - Your beauty is our concern</p>
               </div>
             </div>
             <button
@@ -279,8 +278,8 @@ export default function AdminDashboard({ onLogout }: AdminDashboardProps) {
         <div id="report-content" className="bg-white rounded-xl shadow-lg p-8">
           <div className="header">
             <img
-              src="/Emblem Style Barber Shop Logo.png"
-              alt="Logo"
+              src="/mello-cuts.jpg"
+              alt="Mello Cuts Logo"
               className="logo"
               style={{ width: '100px', height: '100px', margin: '0 auto 20px' }}
             />

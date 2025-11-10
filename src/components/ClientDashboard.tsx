@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { ref, push, onValue, remove, update } from 'firebase/database';
 import { database } from '../firebase';
 import { SalesRecord, ExpenseRecord, DailySummary } from '../types';
-import { DollarSign, TrendingUp, TrendingDown, PlusCircle, Calendar, Save } from 'lucide-react';
+import { DollarSign, TrendingUp, TrendingDown, PlusCircle, Calendar } from 'lucide-react';
 import SalesForm from './SalesForm';
 import ExpenseForm from './ExpenseForm';
 import RecordsList from './RecordsList';
@@ -110,13 +110,13 @@ export default function ClientDashboard() {
           <div className="flex items-center justify-between h-20">
             <div className="flex items-center gap-4">
               <img
-                src="/Emblem Style Barber Shop Logo.png"
-                alt="Logo"
+                src="/mello-cuts.jpg"
+                alt="Mello Cuts Logo"
                 className="h-16 w-16"
               />
               <div>
                 <h1 className="text-2xl font-bold text-gray-900">Mello Cuts</h1>
-                <p className="text-sm text-gray-600">Icen Shop Management</p>
+                <p className="text-sm text-gray-600">Your beauty is our concern</p>
               </div>
             </div>
            
