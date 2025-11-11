@@ -48,7 +48,7 @@ export default function AdminLogin({ onLogin }: AdminLoginProps) {
         <div className="bg-white rounded-2xl shadow-2xl overflow-hidden">
           <div className="bg-gradient-to-r from-red-600 to-red-700 p-8 text-center">
             <img
-              src="/mello-cuts.jpg"
+              src="/Adobe Express - file.png"
               alt="Mello Cuts Logo"
               className="w-24 h-24 mx-auto mb-4"
             />

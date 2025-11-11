@@ -149,7 +149,7 @@ export default function AdminDashboard({ onLogout }: AdminDashboardProps) {
           <div className="flex items-center justify-between h-20">
             <div className="flex items-center gap-4">
               <img
-                src="/mello-cuts.jpg"
+                src="/Adobe Express - file.png"
                 alt="Mello Cuts Logo"
                 className="h-16 w-16"
               />
@@ -278,7 +278,7 @@ export default function AdminDashboard({ onLogout }: AdminDashboardProps) {
         <div id="report-content" className="bg-white rounded-xl shadow-lg p-8">
           <div className="header">
             <img
-              src="/mello-cuts.jpg"
+              src="/Adobe Express - file.png"
               alt="Mello Cuts Logo"
               className="logo"
               style={{ width: '100px', height: '100px', margin: '0 auto 20px' }}

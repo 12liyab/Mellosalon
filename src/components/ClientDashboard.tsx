@@ -109,8 +109,8 @@ export default function ClientDashboard() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-20">
             <div className="flex items-center gap-4">
-              <img
-                src="/mello-cuts.jpg"
+            <img
+                src="/Adobe Express - file.png"
                 alt="Mello Cuts Logo"
                 className="h-16 w-16"
               />

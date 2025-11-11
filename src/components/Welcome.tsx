@@ -23,7 +23,7 @@ export default function Welcome({ onComplete }: WelcomeProps) {
       <div className="text-center px-4">
         <div className="mb-8 flex justify-center">
           <img
-            src="/mello-cuts.jpg"
+            src="/Adobe Express - file.png"
             alt="Mello Cuts Logo"
             className="w-48 h-48 md:w-64 md:h-64 animate-fade-in"
           />
