@@ -1,4 +1,4 @@
-# Stylish Cuts - Icen Shop Management System
+# Styl Cuts - Icen Shop Management System
 
 A modern, responsive barbershop management application for tracking daily sales, expenses, and customer records.
 
