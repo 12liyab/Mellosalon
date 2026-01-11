@@ -1,4 +1,4 @@
-# Mell Cuts - Icen Shop Management System
+# Mello Cuts - Icen Shop Management System
 
 A modern, responsive barbershop management application for tracking daily sales, expenses, and customer records.
 
