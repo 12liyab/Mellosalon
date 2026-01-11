@@ -1,4 +1,4 @@
-#  Cuts - Icen Shop Management System
+# Me Cuts - Icen Shop Management System
 
 A modern, responsive barbershop management application for tracking daily sales, expenses, and customer records.
 
